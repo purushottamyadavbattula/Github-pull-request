@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_8"
+        android:background="@drawable/layout_border">
+
+        <TextView
+            android:id="@+id/repoName"
+            style="@style/Title.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Repository name"
+            android:layout_marginEnd="@dimen/space_64"
+            android:layout_marginTop="@dimen/space_4"/>
+
+        <TextView
+            style="@style/Caption.Dark"
+            android:id="@+id/visibility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_border"
+            app:layout_constraintBottom_toBottomOf="@+id/repoName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/repoName"
+            android:paddingVertical="@dimen/space_4"
+            android:paddingHorizontal="@dimen/space_8"
+            tools:text="Public" />
+
+        <TextView
+            style="@style/Caption"
+            android:id="@+id/repoDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/repoName"
+            app:layout_constraintStart_toStartOf="@+id/repoName"
+            app:layout_constraintTop_toBottomOf="@+id/repoName"
+            tools:text="This the repo description"
+            android:ellipsize="end"
+            android:layout_marginTop="@dimen/space_4"
+            android:maxLines="1"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/repoDescription"
+            app:layout_constraintTop_toBottomOf="@+id/repoDescription"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/space_24">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/languageIcon"
+                    android:layout_width="@dimen/icon_size_extra_small"
+                    android:layout_height="@dimen/icon_size_extra_small"
+                    android:src="@drawable/dot"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <TextView
+                    android:id="@+id/language"
+                    style="@style/Caption.Dark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/space_4"
+                    app:layout_constraintBottom_toBottomOf="@+id/languageIcon"
+                    app:layout_constraintStart_toEndOf="@+id/languageIcon"
+                    app:layout_constraintTop_toTopOf="@+id/languageIcon"
+                    tools:text="Kotlin" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/updated"
+                style="@style/Caption"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="Updated: 2 days ago"
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

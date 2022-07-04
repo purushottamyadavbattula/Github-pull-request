@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Git_pull_requests</string>
+    <string name="repositories">Repositories:</string>
+    <string name="pull_requests">Pull requests :</string>
+    <string name="closed">closed</string>
+    <string name="no_pull_requests_found">No pull requests found</string>
+    <string name="hash">"#%1$s"</string>
+    <string name="by">"by %1$s"</string>
+    <string name="merged_at">"merged at %1$s"</string>
+    <string name="updated_on">"updated on %1$s"</string>
+</resources>

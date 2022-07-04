@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="icon_size_small">16dp</dimen>
+    <dimen name="icon_size_extra_small">12dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="icon_size_medium">32dp</dimen>
+    <dimen name="icon_size_large">42dp</dimen>
+    <dimen name="icon_size_extra_large">56dp</dimen>
+    <dimen name="user_image_size">75dp</dimen>
+    <dimen name="captionsizesmall">10sp</dimen>
+    <dimen name="space_1">1dp</dimen>
+    <dimen name="spacing_10">10dp</dimen>
+    <dimen name="space_32">32dp</dimen>
+    <dimen name="space_64">64dp</dimen>
+    <dimen name="space_24">24dp</dimen>
+    <dimen name="size_8">8dp</dimen>
+    <dimen name="size_512">512dp</dimen>
+    <dimen name="size_768">768dp</dimen>
+    <dimen name="size_1024">1024dp</dimen>
+</resources>

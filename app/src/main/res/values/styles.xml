@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Heading4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="Heading6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="Title" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="Title.Colored" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/primaryColor</item>
+    </style>
+
+    <style name="SubTitle" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="SubTitle.Dark" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="SubTitle.Colored" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">@color/primaryColor</item>
+    </style>
+
+    <style name="Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="Body2.Inverse" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/colorOnSecondary</item>
+    </style>
+
+    <style name="Body2.Primary" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="Caption.Dark">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="Caption.Small">
+        <item name="android:textSize">@dimen/captionsizesmall</item>
+    </style>
+
+    
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18%</item>
+    </style>
+
+</resources>
